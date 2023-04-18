@@ -50,5 +50,20 @@ public class FizzBuzz {
             return String.valueOf(this.number);
         }
     }
+
+
+    public String fizz2(){
+        if(this.number % 3 == 0 && String.valueOf(this.number).indexOf("3") != -1){
+            return "Fizz";
+        }
+        return String.valueOf(this.number);
+    }
+
+    public String buzz2(){
+        if(this.number % 5 == 0 && String.valueOf(this.number).indexOf("5") != -1){
+            return "Buzz";
+        }
+        return String.valueOf(this.number);
+    }
     
 }
